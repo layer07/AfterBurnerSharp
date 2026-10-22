@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <Title>AfterBurnerSharp - MSI Afterburner sensor data to Dictionary</Title>
+    <Authors>Magnus Leatti</Authors>
+    <Description>AfterBurnerSharp is a static class that reads MSI Afterburner's hardware monitoring shared memory (MAHM) and exposes every sensor through Dictionaries, Lists and JSON. Not affiliated with MSI.</Description>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>afterburner,msi afterburner,mahm,shared memory,gpu,gpu metrics,rtss,metrics,hardware metrics</PackageTags>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageReadmeFile>nuget.md</PackageReadmeFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/layer07/AfterBurnerSharp</RepositoryUrl>
+    <PackageProjectUrl>https://kernelriot.com</PackageProjectUrl>
+    <GenerateDocumentationFile>False</GenerateDocumentationFile>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Copyright>Everyone but the Author</Copyright>
+    <Deterministic>True</Deterministic>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="nuget.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+</Project>
